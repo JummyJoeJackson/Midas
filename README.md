@@ -1,6 +1,6 @@
 # Midas - QHacks 2026
 
-Theme: The Golden Age
+Theme: "The Golden Age"
 
 Authors: Daniel Kwan, Diego Gonzalez, Ryan Li, Siddharth Tiwari
 
@@ -28,7 +28,7 @@ Users interact via **hold-to-talk** (Whisper STT) or **text input**. Midas' resp
 |-------|-----------|
 | **Frontend** | React 19, Vite 7, Tailwind CSS v4, Framer Motion |
 | **Backend** | FastAPI, Uvicorn |
-| **Object Detection** | YOLOv11n (Ultralytics), pretrained on 80 COCO classes inc. cellphone, mouse, keyboard, person, etc. |
+| **Object Detection** | YOLOv11n (Ultralytics), trained on 80 COCO classes inc. cellphone, computer mouse, keyboard, person, etc. |
 | **Image Processing** | OpenCV (CLAHE contrast enhancement, sharpening, resize) |
 | **Vision AI** | GPT-4o Vision (damage analysis + repair instructions) |
 | **Speech-to-Text** | OpenAI Whisper API |
@@ -75,8 +75,8 @@ midas/
 │       ├── vision_advisor.py        # GPT-4o Vision wrapper (analyze + chat)
 │       └── __init__.py
 │
-├── requirements.txt                 # Python dependencies
-├── .env                             # Environment variables (OPENAI_API_KEY)
+├── requirements.txt                 
+├── .env                         
 └── .gitignore
 ```
 
