@@ -209,7 +209,7 @@ Find your local IP with `ipconfig getifaddr en0` (macOS) or `hostname -I` (Linux
 
 ### Single Server Mode
 
-Build the frontend and serve everything from FastAPI:
+Build the frontend and serve everything using FastAPI:
 
 ```bash
 cd frontend && npm run build && cd ..
