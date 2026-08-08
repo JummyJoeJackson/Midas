@@ -8,6 +8,8 @@ Authors: Daniel Kwan, Diego Gonzalez, Ryan Li, Siddharth Tiwari
 
 MIDAS is an AR-powered repair assistant that helps anyone diagnose and fix broken technology. Available as a web application (**optimized for mobile**), simply point your camera at a device and MIDAS identifies components, detects faults, and provides step-by-step, voice-guided, interactive repair instructions. Midas uses AI to bring neglected devices to their former "Golden Age".
 
+[Video demo](https://www.youtube.com/watch?v=xMSbhbAcDkg&t=2s) (No audio)
+
 ---
 
 ## How It Works
@@ -207,7 +209,7 @@ Find your local IP with `ipconfig getifaddr en0` (macOS) or `hostname -I` (Linux
 
 ### Single Server Mode
 
-Build the frontend and serve everything from FastAPI:
+Build the frontend and serve everything using FastAPI:
 
 ```bash
 cd frontend && npm run build && cd ..
